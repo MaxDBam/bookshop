@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Book Shop</title>
+</head>
+
+<body onload="onInit()">
+    <header>
+        <h1>Book Shop</h1>
+    </header>
+
+    <div class="add-book-input">
+        <span>Title</span>
+        <input type="text" name="title" placeholder="title">
+
+        <span>Price</span>
+        <input type="number" name="price" placeholder="price">
+
+    </div>
+    <button class="save-btn" onclick="onSaveBook()">Save</button>
+
+    <div class="modal" hidden>
+
+
+        <h3></h3>
+        <h5></h5>
+        <h4></h4>
+        <div class="rating"></div>
+
+        <button onclick="onCloseModal()">Close</button>
+
+    </div>
+
+
+    <table>
+
+    </table>
+
+
+    <br>
+
+
+    <button onclick="onNextPage()">Next Page &gt; </button>
+
+
+    <script src="js/storage-service.js"></script>
+    <script src="js/util-service.js"></script>
+    <script src="js/book-service.js"></script>
+    <script src="js/book-controller.js"></script>
+</body>
+
+</html>

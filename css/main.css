@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    background-color: rgba(238, 238, 238, 0.81) !important;
+    background-image: url(../img/bgc.jpg);
+    background-blend-mode: color;
+}
+
+h1 {
+    margin: 2rem;
+    color: brown;
+}
+
+img {
+    width: 2rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table {
+    width: 37rem;
+    margin: auto;
+    margin-top: 4rem;
+    border-collapse: collapse;
+    border-color: grey;
+}
+
+th {
+    border-bottom: 0.125rem solid lightgray;
+    margin-bottom: 0.2rem;
+}
+
+tr {
+    border-bottom: 0.125rem solid lightgray;
+    margin-bottom: 0.2rem;
+}
+
+td {
+    height: 4rem;
+}
+
+.add-book-input {
+    display: block;
+    text-align: center;
+    width: 12rem;
+    margin: auto;
+}
+
+input {
+    margin: 1rem;
+}
+
+.read-btn {
+    background-color: blue;
+    color: white;
+    border-radius: 25%;
+    padding: 0.5rem;
+}
+
+.update-btn {
+    background-color: orange;
+    color: white;
+    border-radius: 25%;
+    padding: 0.5rem;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border-radius: 25%;
+    padding: 0.5rem;
+}
+
+.modal {
+    margin-top: 1rem;
+    height: 10rem;
+    width: 30rem;
+    padding: 3rem;
+    background-color: lightsalmon;
+    margin: auto;
+    border-radius: 15%;
+    text-align: center;
+}
+
+.save-btn {
+    margin: 2rem;
+}
+
+.rating-btn,
+p {
+    text-align: center;
+    width: 1.5rem;
+    margin: 0.2rem;
+}
+
+.rating {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
